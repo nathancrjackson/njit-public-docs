@@ -52,26 +52,26 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Debug Module Resolution
-        env:
-          GOPROXY: direct
-        run: |
-          echo "=== MODULE GRAPH ==="
-          hugo mod graph
-          echo ""
-          echo "=== VIRTUAL FILE SYSTEM MOUNTS ==="
-          hugo config mounts
-
-      - name: Build with Hugo
+      - name: Build with Hugo including debugging
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           GOPROXY: direct
         run: |
+          hugo mod clean
           hugo mod tidy
+
+          echo "=== MODULE GRAPH ==="
+          hugo mod graph
+          echo ""
+          echo "=== VIRTUAL FILE SYSTEM MOUNTS ==="
+          hugo config mounts
+          echo ""
+
           hugo \
             --gc \
             --minify \
+            --ignoreCache \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
