@@ -57,6 +57,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           GOPROXY: direct
+          GOSUMDB: off
         run: |
           hugo mod clean
           hugo mod tidy
