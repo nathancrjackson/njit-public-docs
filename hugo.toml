@@ -1,0 +1,19 @@
+baseURL = 'http://kb.njit.io/'
+languageCode = 'en-us'
+title = 'NJIT Public KB'
+
+[params.docs]
+    darkMode = true
+	logoLinkURL = "/docs/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[module]
+    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    [[module.imports]]
+        path = "github.com/colinwilson/lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
