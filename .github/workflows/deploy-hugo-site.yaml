@@ -52,6 +52,16 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Debug Module Resolution
+        env:
+          GOPROXY: direct
+        run: |
+          echo "=== MODULE GRAPH ==="
+          hugo mod graph
+          echo ""
+          echo "=== VIRTUAL FILE SYSTEM MOUNTS ==="
+          hugo config mounts
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
