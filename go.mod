@@ -2,4 +2,7 @@ module njit-public-docs
 
 go 1.26.1
 
-require github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20800 // indirect
+require (
+	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20800 // indirect
+	github.com/nathancrjackson/lotusdocs v0.0.0-20260428064035-bdc8063448f5 // indirect
+)
