@@ -10,7 +10,7 @@ title = 'NJIT Public KB'
   unsafe = true
 
 [module]
-    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    replacements = "github.com/colinwilson/lotusdocs -> themes/lotusdocs"
     [[module.imports]]
         path = "github.com/colinwilson/lotusdocs"
         disable = false
