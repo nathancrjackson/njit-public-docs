@@ -5,13 +5,14 @@ title = 'NJIT Public KB'
 [params.docs]
     darkMode = true
 	logoLinkURL = "/docs/"
+	navScopeCurrentSection = true
 
 [markup.goldmark.renderer]
   unsafe = true
 
 [module]
     [[module.imports]]
-        path = "github.com/nathancrjackson/lotusdocs"
+        path = "github.com/colinwilson/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
