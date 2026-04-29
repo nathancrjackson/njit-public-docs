@@ -34,6 +34,7 @@ tags:
 * **5.1. Microsoft Intune (Endpoint Management):** Configuration vs. compliance policies, device enrollment (Autopilot), and mobile application management (MAM).
 * **5.2. Microsoft Copilot:** Basic data readiness concepts (oversharing risks in SharePoint) and licensing constraints.
 * **5.3. Power Platform:** Core governance, environment strategies, and Power Platform DLP policies.
+* **5.4. Microsoft Fabric:** OneLake architecture, capacity management, and security integration.
 
 **6. Incident Lifecycle & Decision Logic**
 * **6.1. ITIL Fundamentals:** The very basics on the ITIL Framework.
