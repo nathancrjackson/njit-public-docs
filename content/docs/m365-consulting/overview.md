@@ -10,7 +10,7 @@ tags:
 
 **1. M365 Core Services & Architecture**
 * **1.1. Exchange Online:** Architecture hierarchy, mail flow troubleshooting, shared mailboxes, and hybrid concepts.
-* **1.2. SharePoint Online & OneDrive:** Architecture hierarchy, external sharing configurations, and sync client troubleshooting.
+* **1.2. SharePoint Online & OneDrive:** Architecture hierarchy, permissions, sprawl management, and sync client troubleshooting.
 * **1.3. Microsoft Teams:** Architecture hierarchy, meeting policies, app governance, and standardizing team creation.
 * **1.4. Service-Wide:** Troubleshooting issues and data consistency across the ecosystem.
 
@@ -36,7 +36,7 @@ tags:
 * **5.2. Microsoft Copilot:** Architecture, Agent 365 governance, licensing tiers, and Entra Agent ID.
 * **5.3. Power Platform:** Architecture hierarchy, environment strategies, and Power Platform DLP policies.
 * **5.4. Microsoft Fabric:** Architecture hierarchy, OneLake, capacity management, and security integration.
-* **5.4. Teams Calling:** Architecture hierarchy, PSTN connectivity models, call flow logic, and troubleshooting diagnostics.
+* **5.5. Teams Calling:** Architecture hierarchy, PSTN connectivity models, call flow logic, and troubleshooting diagnostics.
 
 **6. Incident Lifecycle & Decision Logic**
 * **6.1. ITIL Fundamentals:** The very basics on the ITIL Framework.
