@@ -36,16 +36,19 @@ tags:
 * **5.2. Microsoft Copilot:** Architecture, Agent 365 governance, licensing tiers, and Entra Agent ID.
 * **5.3. Power Platform:** Architecture hierarchy, environment strategies, and Power Platform DLP policies.
 * **5.4. Microsoft Fabric:** Architecture hierarchy, OneLake, capacity management, and security integration.
-* **5.5. Teams Calling:** Architecture hierarchy, PSTN connectivity models, call flow logic, and troubleshooting diagnostics.
 
-**6. Incident Lifecycle & Decision Logic**
-* **6.1. ITIL Fundamentals:** The very basics on the ITIL Framework.
-* **6.2. Issue Ownership:** Establishing a triage workflow for complex blockers before considering escalation.
-* **6.3. The Escalation Framework:** Creating a standardized template for genuine decision points (Context -> Business Impact -> Recommended Options).
-* **6.4. Managing Ambiguity:** How to operate when documentation is missing or incomplete.
+**6. VoIP and Teams Calling**
+* **6.1. VoIP Fundamentals:** Core architecture, technical vocabulary, and the different parts of modern telephony.
+* **6.2. Teams Calling:** Architecture hierarchy, PSTN connectivity models, call flow logic, and troubleshooting diagnostics.
 
-**7. Consulting & Stakeholder Management**
-* **7.1. The "Consultant Muscle":** Frameworks for reviewing solution requests against an *existing* strategy.
-* **7.2. Constructive Pushback:** How to confidently say "no" to non-standard approaches while providing technical reasoning and a compliant alternative.
-* **7.3. Advising:** Translating complex M365 guardrails into practical "how to do it properly" steps for delivery teams.
-* **7.4. RAID/RAAIDD Logs:** Leveraging logs as a technical shield to document risks, decisions, and dependencies for accountability and clear architectural handovers.
+**7. Incident Lifecycle & Decision Logic**
+* **7.1. ITIL Fundamentals:** The very basics on the ITIL Framework.
+* **7.2. Issue Ownership:** Establishing a triage workflow for complex blockers before considering escalation.
+* **7.3. The Escalation Framework:** Creating a standardized template for genuine decision points (Context -> Business Impact -> Recommended Options).
+* **7.4. Managing Ambiguity:** How to operate when documentation is missing or incomplete.
+
+**8. Consulting & Stakeholder Management**
+* **8.1. The "Consultant Muscle":** Frameworks for reviewing solution requests against an *existing* strategy.
+* **8.2. Constructive Pushback:** How to confidently say "no" to non-standard approaches while providing technical reasoning and a compliant alternative.
+* **8.3. Advising:** Translating complex M365 guardrails into practical "how to do it properly" steps for delivery teams.
+* **8.4. RAID/RAAIDD Logs:** Leveraging logs as a technical shield to document risks, decisions, and dependencies for accountability and clear architectural handovers.
