@@ -18,4 +18,5 @@ tags:
 * **2.1. The "Consultant Muscle":** Frameworks for reviewing solution requests against an *existing* strategy.
 * **2.2. Constructive Pushback:** How to confidently say "no" to non-standard approaches while providing technical reasoning and a compliant alternative.
 * **2.3. Advising:** Translating complex M365 guardrails into practical "how to do it properly" steps for delivery teams.
-* **2.4. RAID/RAAIDD Logs:** Leveraging logs as a technical shield to document risks, decisions, and dependencies for accountability and clear architectural handovers.
+* **2.4. RACI/RASCI Charts:** Establishing clear ownership, accountability, and boundaries to accelerate M365 project delivery and prevent architectural drift.
+* **2.5. RAID/RAAIDD Logs:** Leveraging logs as a technical shield to document risks, decisions, and dependencies for accountability and clear architectural handovers.
