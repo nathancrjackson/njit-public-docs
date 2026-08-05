@@ -19,7 +19,8 @@ tags:
 * **2.1. Identity & Access Fundamentals:** Architecture hierarchy, user and device types, application identity, and cross-tenant relationships.
 * **2.2. Identity Lifecycle:** Understanding the flow from HR systems to Active Directory to Entra ID (JML - Joiners, Movers, Leavers).
 * **2.3. Conditional Access (CA):** Best practices for CA policies, troubleshooting sign-in logs, and managing exclusions securely.
-* **2.4. Authentication:** MFA enforcement, Self-Service Password Reset (SSPR), and modern authentication protocols.
+* **2.4. User Authentication:** Hybrid topologies, MFA enforcement, SSPR, modern auth flows, and sign-in diagnostics.
+* **2.5. Application Authentication:** App registrations, service principals, managed identities, authentication scopes, and credential lifecycles.
 
 **3. Governance & Compliance (Purview)**
 * **3.1. Data Loss Prevention (DLP):** Triage workflows for DLP alerts and understanding policy scoping.
